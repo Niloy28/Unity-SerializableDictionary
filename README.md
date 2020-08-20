@@ -1,5 +1,6 @@
 # SerializableDictionary
-A serializable dictionary class for Unity.
+## (with SerializedHashSet too!)
+A serializable dictionary (and hashset) class for Unity.
 
 Unity cannot serialize standard dictionaries. This means that they won't show or be edited in the inspector
 and they won't be instantiated at startup. A classic workaround is to store the keys and values in separate arrays
