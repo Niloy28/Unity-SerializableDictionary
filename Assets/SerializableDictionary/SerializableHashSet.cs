@@ -18,7 +18,7 @@ public abstract class SerializableHashSetBase
 }
 
 [Serializable]
-public abstract class SerializableHashSet<T> : SerializableHashSetBase, ISet<T>, ISerializationCallbackReceiver, IDeserializationCallback, ISerializable
+public class SerializableHashSet<T> : SerializableHashSetBase, ISet<T>, ISerializationCallbackReceiver, IDeserializationCallback, ISerializable
 {
 	HashSet<T> m_hashSet;
 	[SerializeField]
